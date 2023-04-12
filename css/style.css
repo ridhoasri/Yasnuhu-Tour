@@ -223,7 +223,7 @@ header .header button:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
-  margin-top: -80px;
+  margin-top: -40px;
 }
 
 .features .featured-content .content {
@@ -278,7 +278,7 @@ header .header button:hover {
 
 .destination .destination-grid {
   display: flex;
-  margin-top: -150px;
+  margin-top: -35px;
   align-items: center;
 }
 
@@ -378,7 +378,7 @@ header .header button:hover {
 
 .destination .destination-content .contents .card .card-image {
   position: relative;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .destination .destination-content .contents .card .card-image span {
@@ -484,6 +484,7 @@ header .header button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1px;
 }
 
 .contact .contact-content h3 {
@@ -504,7 +505,7 @@ header .header button:hover {
 }
 
 .contact button {
-  margin: 50px auto;
+  margin: 5px auto;
   background-color: var(--blue-color);
   color: white;
   border: none;
@@ -539,7 +540,7 @@ header .header button:hover {
 }
 
 .footer .footer-content h1 {
-  font-size: 8em;
+  font-size: 5em;
   color: var(--red-color);
 }
 
@@ -551,7 +552,7 @@ header .header button:hover {
 
 .footer .footer-content .footer-sosmed {
   display: flex;
-  margin-top: 50px;
+  margin-top: 1px;
 }
 
 .footer .footer-content .footer-sosmed a {
@@ -581,7 +582,7 @@ header .header button:hover {
 }
 
 .footer-copy p {
-  font-size: 1.5rem;
+  font-size: 0.6rem;
   font-family: var(--poppins-font);
 }
 
