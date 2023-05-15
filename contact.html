@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url(/images/merese.webp) no-repeat;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      backdrop-filter: blur(3px);
+      
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      
+      
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      border: 3px solid rgb(0, 0, 0);
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      background-color: #f9f9f9;
+    }
+
+    .form-container input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 3px;
+      transition: background-color 0.3s;
+    }
+
+    .form-container input[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: rgb(0, 0, 0);">Contact Person</h1>
+
+    <p style="color: #000000;">Jika Anda memiliki pertanyaan atau ingin menghubungi kami, silakan hubungi kami melalui informasi kontak di bawah ini:</p>
+
+    <h2>Informasi Kontak:</h2>
+    <ul>
+      <li>Email: <span style="color: #00f;">yasnuhutour@gmail.com</span></li>
+      <li>Telepon: <span style="color: #00f;">0819123456</span></li>
+      <li>Alamat: <span style="color: #00f;">Jl. Raya Mataram-Lb. Lombok KM 65 Pringgabaya</span></li>
+    </ul>
+
+    <h2>Formulir Kontak:</h2>
+    <div class="form-container">
+      <form action="#" method="POST">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Kirim">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
